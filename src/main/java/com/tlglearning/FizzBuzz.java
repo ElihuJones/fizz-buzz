@@ -7,6 +7,7 @@ public enum FizzBuzz {
 
   FIZZ, BUZZ;
 
+    //Method - Declaration (modifier, return type, name) + Implementation
     public static Set <FizzBuzz> valueOf(int num) {
     Set<FizzBuzz> result = EnumSet.noneOf(FizzBuzz.class);
     if (num % 3 == 0) {
